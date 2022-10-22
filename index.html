@@ -47,10 +47,18 @@
     </p>
     <h2>git add -u / git add -n / git add -a</h2>
     <p>
-      - git add -u: La opción -u sólo añade al índice aquellos ficheros que ya
-      estén siendo monitorizados por git. - git add -n: Esta opción es muy
-      práctica ya que nos mostrará en pantalla lo que el comando git-add haría
-      sin actualizar el índice. - git add -a: Esta opción funciona como la
+      <ul>
+        <li>git add -u: La opción -u sólo añade al índice aquellos ficheros que ya
+          estén siendo monitorizados por git.</li>
+        <li>git add -n: Esta opción es muy
+          práctica ya que nos mostrará en pantalla lo que el comando git-add haría
+          sin actualizar el índice.</li>
+        <li>git add -a: Esta opción funciona como la
+          opción -u añadiendo también a la búsqueda los ficheros del área de
+          trabajo. El resultado es que los ficheros que no estén siendo
+          monitorizados también se añadirán al índice.</li>
+      </ul>
+       - git add -a: Esta opción funciona como la
       opción -u añadiendo también a la búsqueda los ficheros del área de
       trabajo. El resultado es que los ficheros que no estén siendo
       monitorizados también se añadirán al índice.
@@ -64,6 +72,17 @@
       
     </p>
     <h2>git log</h2>
+    <p>
+      El comando git log muestra todas las commits en el historial del repositorio.
+      Por defecto, el comando muestra los datos de cada commit:
+      <ul>
+        <li>Secure Hash Algorithm (SHA)</li>
+        <li>Autor</li>
+        <li>Fecha</li>
+        <li>Mensaje del commit</li>
+      </ul>
+    </p>
+    <h2>git stwich / git checkout</h2>
     <p>
 
     </p>
