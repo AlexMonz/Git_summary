@@ -107,22 +107,47 @@
       <h3>Options</h3>
       <ul>
         <li>git branch -a : Revisa el nombre de tu rama corriendo</li>
+        <li>git branch -m : Cambiar de nombre la rama ej: git branch - m nuevoNombre</li>
       </ul>
     </p>
-    
-    <h2>commit y branches</h2>
-    <p>
     <h2>git merge</h2>
+    <p>fast-foward: git switch master / git merge nombreRama</p>
     <p>
-    <h2>git y gestion de conflictos</h2>
-    <p>
-    <h2>borrado de ramas</h2>
-    <p>
-  
+      Unir dos ramas lo conocemos como Merge. El comando git merge permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama. 
+      Ten en cuenta que todos los comandos presentados a continuación se fusionan en la rama actual.
     </p>
+    <h2>git rebase</h2>
+    <p>Si prefieres un historial limpio, lineal y libre de commits de fusión innecesarios,
+       debes usar el comando git rebase en lugar de git merge para integrar los cambios de otra rama.</p>
     <h2>git stwich</h2>
     <p>
   
+    </p>
+    <h2>git push</h2>
+    <p>El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto. 
+      El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto.</p>
+    <ul>
+      <li>git push name -f: </li>
+      <li>git push Origin localBranchName:remoteBranchName: Cuando el nombre de su sucursal local y remota es diferente </li>
+      <li>git Push Origin branchName: Si su sucursal local y su sucursal remota tienen el mismo nombre </li>
+      <li>git Push Origin AMD_qlp_teste: Empuje a la sucursal ubicada en Origen llamada AMD_qlp_tester </li>
+      <li>git Push -u Origin AMD_qlp_tester: igual que el anterior, pero establece el enlace ascendente que une la sucursal local con la sucursal remota para que 
+        la próxima vez pueda usar git Push/pull si no está ya vinculado (solo debe hacerlo una vez).</li>
+    </ul>
+    <h2>git remote</h2>
+    <p>
+    Para ver las ramas remotas existentes.
+    </p>
+    <h2>git fetch</h2>
+    <p>
+      es el comando que le dice a tu git local que recupere la última información de los metadatos del original (aunque no hace ninguna transferencia de archivos. 
+      Es más bien como comprobar si hay algún cambio disponible).</p>
+      <p>Puedes usar git fetch para saber los cambios hechos en el repo/rama remoto desde tu último pull. Esto es útil para permitir la comprobación antes de hacer un pull real, 
+      lo que podría cambiar los archivos en tu rama actual y en la copia de trabajo (y potencialmente perder tus cambios, etc.).</p>
+    </p>
+    <h2>git pull</h2>
+    <p>
+      
     </p>
 
   </body>
